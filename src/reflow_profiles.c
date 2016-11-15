@@ -24,6 +24,7 @@ const profile am4300profile = {
 };
 
 // NC-31 low-temp lead-free profile
+/*
 const profile nc31profile = {
 	"NC-31 LOW-TEMP LF", {
 		 50, 50, 50, 50, 55, 70, 85, 90, 95,100,102,105,107,110,112,115, // 0-150s
@@ -31,8 +32,20 @@ const profile nc31profile = {
 		 98, 90, 82, 74, 66, 58,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0  // 320-470s
 	}
 };
+*/
+
+// CHIP QUIK SMDLTLFP LEAD FREE SOLDER PASTE, SN, BI, AG, 138DEG C
+const profile chipquikprofile = {
+	"CHIPQUIK 138C-LF", {
+		 50, 50, 50, 50, 55, 70, 85, 90, 95,100,102,105,107,110,112,115, // 0-150s
+		117,120,122,127,132,138,148,158,160,158,148,138,130,122,114,106, // Adjust peak from 158 to 165C
+		 98, 90, 82, 74, 66, 58,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0  // 320-470s
+	}
+};
+
 
 // SynTECH-LF normal temp lead-free profile
+/*
 const profile syntechlfprofile = {
 	"AMTECH SYNTECH-LF", {
 		 50, 50, 50, 50, 60, 70, 80, 90,100,110,120,130,140,149,158,166, // 0-150s
@@ -40,13 +53,22 @@ const profile syntechlfprofile = {
 		184,177,157,137,117, 97, 77, 57,  0,  0,  0,  0,  0,  0,  0,  0  // 320-470s
 	}
 };
+*/
+//MULTICORE / LOCTITE  698840  Solder Paste, Tub, 217 °C
+const profile loctiteprofile = {
+	" LOCTITE  698840-LF", {
+		 50, 50, 50, 50, 60, 70, 80, 90,100,110,120,130,140,149,158,166, // 0-150s
+		175,184,193,201,210,219,230,240,245,250,250,245,240,230,219,212, // Adjust peak from 230 to 249C
+		205,198,191,184,177,157,137,117, 97, 77, 57,  0,  0,  0,  0,  0  // 320-470s
+	}
+};
 
 #ifdef RAMPTEST
 // Ramp speed test temp profile
 const profile rampspeed_testprofile = {
 	"RAMP SPEED TEST", {
-		 50, 50, 50, 50,245,245,245,245,245,245,245,245,245,245,245,245, // 0-150s
-		245,245,245,245,245,245,245,245,245, 50, 50, 50, 50, 50, 50, 50, // 160-310s
+		 50, 50, 50, 50,250,250,250,250,250,250,250,250,250,250,250,250, // 0-150s
+		250,250,250,250,250,250,250,250,250, 50, 50, 50, 50, 50, 50, 50, // 160-310s
 		 50, 50, 50, 50, 50, 50, 50, 50,  0,  0,  0,  0,  0,  0,  0,  0  // 320-470s
 	}
 };
@@ -70,8 +92,8 @@ ramprofile ee1 = { "CUSTOM #1" };
 ramprofile ee2 = { "CUSTOM #2" };
 
 const profile* profiles[] = {
-	&syntechlfprofile,
-	&nc31profile,
+	&loctiteprofile,
+	&chipquikprofile,
 	&am4300profile,
 #ifdef RAMPTEST
 	&rampspeed_testprofile,
