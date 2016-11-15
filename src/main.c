@@ -274,8 +274,10 @@ static int32_t Main_Work(void) {
 				printf("\nDumping profile %d: %s\n ", param, Reflow_GetProfileName());
 				Reflow_DumpProfile(param);
 
-			} else if (sscanf(serial_cmd, cmd_setting, &param, &paramF) > 0) {
-				Setup_setRealValue(param, paramF);
+			} else if (sscanf(serial_cmd, cmd_setting, &param, &param1) > 0) {
+				// This is currently a bit crude. User has to input
+				// the value as an integer as stored in the NV storage.
+				Setup_setValue(param, param1);
 				printf("\nAdjusted setting: ");
 				Setup_printFormattedValue(param);
 
