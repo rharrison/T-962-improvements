@@ -2,7 +2,7 @@
 
 __THIS HAS ONLY BEEN TESTED WITH LPCXpresso v8.2.2 [Build 650] [2016-09-09]__
 
-You will need to import the project into your workspace and make a few changes to the build environment in LPCXpress. These are showne in the pictures below :-
+You will need to import the project into your workspace and make a few changes to the build environment in LPCXpress. These are shown in the images below :-
 
 On the import pannel which by default is in the lower left quadrent of the IDE select import projects and follow the instuctions...
 
