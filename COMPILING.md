@@ -1,3 +1,9 @@
+# Compiling with LPCXpresso
+
+You will need to import the project into your workspace and make a few changes to the build environment in LPCXpress. These are showne in the pictures below :-
+
+
+
 # Compiling without LPCXpresso
 
 We need the `gcc-arm-none-eabi` compiler, for example in Ubuntu:
