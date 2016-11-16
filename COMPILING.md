@@ -16,6 +16,7 @@ Finally in __Properties__ choose __Settings__. Then select __Dialect__ and make 
 
 ![SETTINGS DIALECT](/doc_img/dialect.png)
 
+Now from the __Project Menu__ select __Build All__ and this should build the project with no errors.
 
 # Compiling without LPCXpresso
 
