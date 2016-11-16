@@ -1,10 +1,20 @@
 # Compiling with LPCXpresso
 
+THIS HAS ONLY BEEN TESTED ON LPCXpresso v8.2.2 [Build 650] [2016-09-09] 
+
 You will need to import the project into your workspace and make a few changes to the build environment in LPCXpress. These are showne in the pictures below :-
 
 On the import pannel which by default is in the lower left quadrent of the IDE select import projects and follow the instuctions...
 
 ![Import Panel](/doc_img/import.png)
+
+Next go into the properties for the project and make sure the __Tool Chain Editor__ is set as below ...
+
+![Tool Chain Editor](/doc_img/toolchain.png)
+
+Finally inproperties choose __Settings__. Then select __Dialect__ and make sure the Dialect is set to GNU C99 ...
+
+![SETTINGS DIALECT](/doc_img/dialect.png)
 
 
 # Compiling without LPCXpresso
