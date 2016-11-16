@@ -4,9 +4,9 @@ __THIS HAS ONLY BEEN TESTED WITH LPCXpresso v8.2.2 [Build 650] [2016-09-09]__
 
 You will need to import the project into your workspace and make a few changes to the build environment in LPCXpress. These are shown in the images below :-
 
-On the import pannel which by default is in the lower left quadrent of the IDE select import projects and follow the instuctions...
+On the __Quickstart Pannel__ which by default is in the lower left quadrent of the IDE select __Import project(s)__ and follow the instuctions...
 
-![Import Panel](/doc_img/import.png)
+![Quickstart Panel](/doc_img/import.png)
 
 Next go into the properties for the project and make sure the __Tool Chain Editor__ is set as below ...
 
