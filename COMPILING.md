@@ -12,7 +12,7 @@ Next go into the properties for the project and make sure the __Tool Chain Edito
 
 ![Tool Chain Editor](/doc_img/toolchain.png)
 
-Finally inproperties choose __Settings__. Then select __Dialect__ and make sure the Dialect is set to GNU C99 ...
+Finally in __Properties__ choose __Settings__. Then select __Dialect__ and make sure the Dialect is set to GNU C99 ...
 
 ![SETTINGS DIALECT](/doc_img/dialect.png)
 
