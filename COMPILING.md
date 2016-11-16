@@ -1,6 +1,6 @@
 # Compiling with LPCXpresso
 
-THIS HAS ONLY BEEN TESTED ON LPCXpresso v8.2.2 [Build 650] [2016-09-09] 
+THIS HAS ONLY BEEN TESTED WITH LPCXpresso v8.2.2 [Build 650] [2016-09-09] 
 
 You will need to import the project into your workspace and make a few changes to the build environment in LPCXpress. These are showne in the pictures below :-
 
