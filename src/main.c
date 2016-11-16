@@ -189,7 +189,6 @@ static int32_t Main_Work(void) {
 
 		if (len > 0) {
 			int param, param1;
-			float paramF;
 
 			if (strcmp(serial_cmd, "about") == 0) {
 				printf(format_about, Version_GetGitVersion());
