@@ -2,6 +2,9 @@
 
 You will need to import the project into your workspace and make a few changes to the build environment in LPCXpress. These are showne in the pictures below :-
 
+On the import pannel which by default is in the lower left quadrent of the IDE select import projects and follow the instuctions...
+
+![Import Panel](/doc_img/import.png)
 
 
 # Compiling without LPCXpresso
