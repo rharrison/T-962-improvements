@@ -50,7 +50,8 @@ extern uint8_t f3editbmp[];
 
 // No version.c file generated for LPCXpresso builds, fall back to this
 __attribute__((weak)) const char* Version_GetGitVersion(void) {
-	return "no version info";
+	// return "no version info";
+	return "Version 0.52 (Icarus)";
 }
 
 char* format_about = \
